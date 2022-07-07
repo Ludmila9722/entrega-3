@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+* {
+    padding: 0px;
+    font-family: 'Play', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(img/universo1.jpg);
+    background-position: center;
+    flex-wrap: wrap;
+    background-repeat: repeat;
+}
+
+
+.encabezado {
+    .encabezado_Titulo {
+        color: white;
+        align-items: center;
+        background-image: url("img/fondo.jpg");
+        background-size: cover;
+        letter-spacing: 12px;
+        font-size: x-large;
+        height: 220px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .menu {
+        .menu_botones {
+            display: flex;
+            list-style: none;
+            width: 100%;
+            padding: 0px 30px;
+            justify-content: space-evenly;
+            background-image: url(img/impresoraa.jpg);
+            align-items: center;
+            border-radius: 5px;
+            font-family: 'Play', sans-serif;
+            flex-wrap: wrap;
+
+            .menu_botones--logo {
+                background-position: left;
+                width: 150px;
+                height: 150px;
+
+
+                .menu_botones--logo--index {
+                    color: rgb(214, 211, 22);
+                    width: 200px;
+                    padding: 5px;
+                    align-items: center;
+                    font-size: x-large;
+                    box-shadow: 0 0 60px rgb(57, 7, 236);
+                    background: linear-gradient(#4596d8, #4f57ca);
+                    flex-wrap: nowrap;
+                    border-radius: 20px;
+                    font-family: sans-serif;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}
+
+.subtitulo {
+    color: rgb(235, 242, 243);
+    width: 230px;
+    padding: 5px;
+    border-radius: 50px;
+    align-items: center;
+    font-size: xx-large;
+    box-shadow: 0 0 60px rgb(179, 162, 241);
+    font-family: 'Play', sans-serif;
+
+    .subtitulo_mrbean {
+        padding-left: 500px;
+
+        .subtitulo_mrbean--texto {
+            color: rgb(252, 249, 249);
+            font-size: xx-large;
+            box-sizing: 200px;
+            font-family: cursive;
+
+        }
+
+    }
+}
+
+//pagina2//
+.quienes {
+    color: rgb(235, 242, 243);
+    width: 400px;
+    padding: 2px;
+    border-radius: 50px;
+    font-size: large;
+    box-shadow: 0 0 60px rgb(179, 162, 241);
+
+}
+
+.Texto2 {
+    color: rgb(252, 249, 249);
+    font-size: x-large;
+    box-sizing: 200px;
+    font-family: 'Play', sans-serif;
+
+    .Texto2_ducato2 {
+        display: flex;
+
+        .Texto2_ducato2--ducato2 img {
+            width: 33%;
+            cursor: pointer;
+        }
+    }
+
+}
+
+//pagina3 3//
+.servicios {
+    display: flex;
+    color: rgb(235, 242, 243);
+    padding: 2px;
+    border-radius: 50px;
+    font-size: xx-large;
+    box-shadow: 0 0 60px rgb(179, 162, 241);
+    text-align: left;
+
+    .servicios_impresora {
+        display: inline-block;
+        vertical-align: top;
+        float: left;
+
+        .servicios_impresora--descripcion {
+            color: white;
+            font-size: x-large;
+            text-indent: 20px;
+            box-shadow: 0 0 45px rgb(155, 90, 104);
+            margin: right 50px;
+            border-radius: 10px;
+            text-align: center;
+            padding-right: 20px;
+
+            .servicios_impresora--descripcion--productos {
+                color: black;
+                font-size: x-large;
+                box-shadow: 0 0 45px rgb(155, 90, 104);
+            }
+
+        }
+    }
+}
+
+.muestra {
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    flex-wrap: wrap;
+
+    .muestra_img {
+        width: 305px;
+        height: 305px;
+        margin: 8px;
+    }
+}
+
+//pagina 4//
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    flex-wrap: wrap;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+
+    .imagenes_img {
+        width: 300px;
+        height: 500px;
+        margin: 15px;
+
+        .imagenes_img--dibujos {
+            display: flex;
+            list-style: none;
+            padding: 0px 20px;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 5px;
+            font-family: 'Play', sans-serif;
+            flex-wrap: wrap;
+            box-shadow: 0 0 60px rgb(179, 162, 241);
+            background: linear-gradient(#6699c2, #4b5097);
+            color: yellow;
+            height: 30px;
+            cursor: pointer;
+
+        }
+    }
+
+}
+
+.contactos {
+    .contactos_buscanos {
+        animation-duration: 20s;
+        animation-name: roving;
+        color: white;
+        animation-iteration-count: infinite;
+        /*tiempo de la animacion*/
+        overflow: hidden;
+        animation-direction: alternate-reverse;
+        /*modo de la animacion*/
+        width: 100%;
+        height: 100%;
+        padding-left: 10%;
+    }
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: aqua;
+
+    .footer_estilos {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 450px) {
+    .ducato2 {
+        background-image: url(img/homero.jpeg);
+        border-radius: 0px;
+    }
+
+}
+
+
+
+@keyframes roving {
+    from {
+        height:20%;}
+
+    
+
+    50% {
+        font-size:20%;
+        text-align:center}
+    
+
+    to {
+       height:100%
+    }
+}

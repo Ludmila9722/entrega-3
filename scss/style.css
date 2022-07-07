@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+* {
+  padding: 0px;
+  font-family: 'Play', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/universo1.jpg);
+  background-position: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-repeat: repeat;
+}
+
+.encabezado .encabezado_Titulo {
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("img/fondo.jpg");
+  background-size: cover;
+  letter-spacing: 12px;
+  font-size: x-large;
+  height: 220px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.encabezado .menu .menu_botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  padding: 0px 30px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-image: url(img/impresoraa.jpg);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  font-family: 'Play', sans-serif;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.encabezado .menu .menu_botones .menu_botones--logo {
+  background-position: left;
+  width: 150px;
+  height: 150px;
+}
+
+.encabezado .menu .menu_botones .menu_botones--logo .menu_botones--logo--index {
+  color: #d6d316;
+  width: 200px;
+  padding: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: x-large;
+  -webkit-box-shadow: 0 0 60px #3907ec;
+          box-shadow: 0 0 60px #3907ec;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4596d8), to(#4f57ca));
+  background: linear-gradient(#4596d8, #4f57ca);
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  border-radius: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.subtitulo {
+  color: #ebf2f3;
+  width: 230px;
+  padding: 5px;
+  border-radius: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: xx-large;
+  -webkit-box-shadow: 0 0 60px #b3a2f1;
+          box-shadow: 0 0 60px #b3a2f1;
+  font-family: 'Play', sans-serif;
+}
+
+.subtitulo .subtitulo_mrbean {
+  padding-left: 500px;
+}
+
+.subtitulo .subtitulo_mrbean .subtitulo_mrbean--texto {
+  color: #fcf9f9;
+  font-size: xx-large;
+  -webkit-box-sizing: 200px;
+          box-sizing: 200px;
+  font-family: cursive;
+}
+
+.quienes {
+  color: #ebf2f3;
+  width: 400px;
+  padding: 2px;
+  border-radius: 50px;
+  font-size: large;
+  -webkit-box-shadow: 0 0 60px #b3a2f1;
+          box-shadow: 0 0 60px #b3a2f1;
+}
+
+.Texto2 {
+  color: #fcf9f9;
+  font-size: x-large;
+  -webkit-box-sizing: 200px;
+          box-sizing: 200px;
+  font-family: 'Play', sans-serif;
+}
+
+.Texto2 .Texto2_ducato2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Texto2 .Texto2_ducato2 .Texto2_ducato2--ducato2 img {
+  width: 33%;
+  cursor: pointer;
+}
+
+.servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ebf2f3;
+  padding: 2px;
+  border-radius: 50px;
+  font-size: xx-large;
+  -webkit-box-shadow: 0 0 60px #b3a2f1;
+          box-shadow: 0 0 60px #b3a2f1;
+  text-align: left;
+}
+
+.servicios .servicios_impresora {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+.servicios .servicios_impresora .servicios_impresora--descripcion {
+  color: white;
+  font-size: x-large;
+  text-indent: 20px;
+  -webkit-box-shadow: 0 0 45px #9b5a68;
+          box-shadow: 0 0 45px #9b5a68;
+  margin: right 50px;
+  border-radius: 10px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.servicios .servicios_impresora .servicios_impresora--descripcion .servicios_impresora--descripcion--productos {
+  color: black;
+  font-size: x-large;
+  -webkit-box-shadow: 0 0 45px #9b5a68;
+          box-shadow: 0 0 45px #9b5a68;
+}
+
+.muestra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white;
+  font-size: x-large;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.muestra .muestra_img {
+  width: 305px;
+  height: 305px;
+  margin: 8px;
+}
+
+.imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: large;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imagenes .imagenes_img {
+  width: 300px;
+  height: 500px;
+  margin: 15px;
+}
+
+.imagenes .imagenes_img .imagenes_img--dibujos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0px 20px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  font-family: 'Play', sans-serif;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-shadow: 0 0 60px #b3a2f1;
+          box-shadow: 0 0 60px #b3a2f1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6699c2), to(#4b5097));
+  background: linear-gradient(#6699c2, #4b5097);
+  color: yellow;
+  height: 30px;
+  cursor: pointer;
+}
+
+.contactos .contactos_buscanos {
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-name: roving;
+          animation-name: roving;
+  color: white;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*tiempo de la animacion*/
+  overflow: hidden;
+  animation-direction: alternate-reverse;
+  /*modo de la animacion*/
+  width: 100%;
+  height: 100%;
+  padding-left: 10%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  background-color: aqua;
+}
+
+.footer .footer_estilos {
+  font-size: medium;
+}
+
+@media (max-width: 450px) {
+  .ducato2 {
+    background-image: url(img/homero.jpeg);
+    border-radius: 0px;
+  }
+}
+
+@-webkit-keyframes roving {
+  from {
+    height: 20%;
+  }
+  50% {
+    font-size: 20%;
+    text-align: center;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+@keyframes roving {
+  from {
+    height: 20%;
+  }
+  50% {
+    font-size: 20%;
+    text-align: center;
+  }
+  to {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
