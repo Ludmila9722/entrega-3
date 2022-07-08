@@ -1,27 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <title>contactos</title>
-    <link rel="stylesheet" href="../index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <title>Chaval Impresiones</title>
+  <link rel="stylesheet" href="../scss/style.css">
 </head>
+
 <body>
-     <header class="encabezado">
-        <div class="encabezado_Titulo">
-            <h1 class="encabezado_Titulo--h1">CHAVAL IMPRESIONES</h1>
-        </div>
-        <nav class="menu">
-            <ul class="menu_botones">
-                <img class="menu_botones--logo" src="img/logo 3D.png">
-                <li><a href="../index.html" class="menu_botones--logo--index">Inicio</a> </li>
-                <li><a href="../pages/Quienes.html" class="menu_botones--logo--index">¿Quienes somos?</a> </li>
-                <li><a href="../pages/Servicios.html" class="menu_botones--logo--index">Servicio</a> </li>
-                <li><a href="../pages/Productos.html" class="menu_botones--logo--index">Productos</a> </li>
-                <li><a href="../pages/Contactos.html" class="menu_botones--logo--index">Contacto</a> </li>
+  <header class="encabezado">
+    <div class="encabezado_Titulo">
+        <h1 class="encabezado_Titulo--h1">CHAVAL IMPRESIONES</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img class="logo" link href="../index.html" src="../img/logo 3D.png"  >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/Quienes.html">¿Quienes somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/Productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/Contactos.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
-    </header>
-    <div class="contactos"></div>
-    <div class="contactos_buscanos"><p>Podes encontrarnos en nuestras redes </p></div>
+          </div>
+        </div>
+      </nav>
+</header>
+
+
+  <section class="final">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Piezas plásticas a medida
+          </h6>
+          <p>
+            Realizamos llaveros personalizados(souvenirs,consorcio,
+            identificadores,hoteles,etc).
+            Gadgets.
+            Accesorios.
+            Repuestos vehicular.
+            Regalos
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Productos
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Grinders🎖️</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Taza para auto 🚗</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Soporte para celular🤖</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Chapas personalizadas para animales🐶</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Nuestras Redes:
+          </h6>
+          <p>
+            <a href="https://m.facebook.com/profile.php" class="text-reset"></a>
+            <i class="fa-brands fa-facebook"  ></i>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/chaval.impresiones/" class="text-reset"></a>
+            <i class="fab fa-instagram"></i>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"></a>
+            <i class="fab fa-whatsapp"></i>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contacto
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Buenos Aires, Argentina</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            Chavalimpresiones@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i>+54 9 11 3904-7694 </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <footer class="text-center p-4">
+    © 2022 Rodriguez Ludmila
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a> 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b392dba136.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

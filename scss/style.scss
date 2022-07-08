@@ -8,10 +8,11 @@
 
 
 body {
-    background-image: url(img/universo1.jpg);
+    background-image: url(../img/universo1.jpg);
     background-position: center;
     flex-wrap: wrap;
     background-repeat: repeat;
+    background-size: auto;
 }
 
 
@@ -19,7 +20,7 @@ body {
     .encabezado_Titulo {
         color: white;
         align-items: center;
-        background-image: url("img/fondo.jpg");
+        background-image: url("../img/fondo.jpg");
         background-size: cover;
         letter-spacing: 12px;
         font-size: x-large;
@@ -29,78 +30,98 @@ body {
         justify-content: center;
 
     }
+}
 
-    .menu {
-        .menu_botones {
-            display: flex;
-            list-style: none;
-            width: 100%;
-            padding: 0px 30px;
-            justify-content: space-evenly;
-            background-image: url(img/impresoraa.jpg);
-            align-items: center;
-            border-radius: 5px;
-            font-family: 'Play', sans-serif;
-            flex-wrap: wrap;
-
-            .menu_botones--logo {
-                background-position: left;
-                width: 150px;
-                height: 150px;
-
-
-                .menu_botones--logo--index {
-                    color: rgb(214, 211, 22);
-                    width: 200px;
-                    padding: 5px;
-                    align-items: center;
-                    font-size: x-large;
-                    box-shadow: 0 0 60px rgb(57, 7, 236);
-                    background: linear-gradient(#4596d8, #4f57ca);
-                    flex-wrap: nowrap;
-                    border-radius: 20px;
-                    font-family: sans-serif;
-                    text-decoration: none;
-                }
-            }
-        }
-
+.menu {
+    .menu_botones {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        padding: 0px 30px;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 5px;
+        font-family: 'Play', sans-serif;
+        flex-wrap: wrap;
     }
 }
 
-.subtitulo {
-    color: rgb(235, 242, 243);
-    width: 230px;
+
+
+
+
+.logo {
+    background-position: left;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: flex;
+    justify-content: center;
+}
+
+.muestra {
+    display: flex;
+    color: wheat;
+    font-size: xx-large;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.nav-link {
+    color: white;
     padding: 5px;
-    border-radius: 50px;
     align-items: center;
     font-size: xx-large;
-    box-shadow: 0 0 60px rgb(179, 162, 241);
-    font-family: 'Play', sans-serif;
+    box-shadow: 0 0 60px rgb(57, 7, 236);
+    background: linear-gradient(#4596d8, #4f57ca);
+    border-radius: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 10px;
 
-    .subtitulo_mrbean {
-        padding-left: 500px;
-
-        .subtitulo_mrbean--texto {
-            color: rgb(252, 249, 249);
-            font-size: xx-large;
-            box-sizing: 200px;
-            font-family: cursive;
-
-        }
-
-    }
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: #4596d8;
+    box-shadow: 0 0 10px rgb(179, 162, 241);;
+    border-radius: 5px;
+    color: white;
+}
+.container-fluid{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
 }
 
 //pagina2//
 .quienes {
     color: rgb(235, 242, 243);
-    width: 400px;
-    padding: 2px;
+    width: 35%;
+    padding: 25px;
     border-radius: 50px;
     font-size: large;
     box-shadow: 0 0 60px rgb(179, 162, 241);
-
+    text-align: center;
 }
 
 .Texto2 {
@@ -108,66 +129,55 @@ body {
     font-size: x-large;
     box-sizing: 200px;
     font-family: 'Play', sans-serif;
-
-    .Texto2_ducato2 {
-        display: flex;
-
-        .Texto2_ducato2--ducato2 img {
-            width: 33%;
-            cursor: pointer;
-        }
-    }
-
 }
+
+.Texto2_ducato2 {
+    display: flex;
+
+    .Texto2_ducato2--ducato2 img {
+        width: 33%;
+        cursor: pointer;
+    }
+}
+
 
 //pagina3 3//
-.servicios {
+.servicio {
     display: flex;
     color: rgb(235, 242, 243);
-    padding: 2px;
+    padding: 8px;
     border-radius: 50px;
     font-size: xx-large;
-    box-shadow: 0 0 60px rgb(179, 162, 241);
+    box-shadow: 0 0 60px rgb(72, 42, 179);
     text-align: left;
-
-    .servicios_impresora {
-        display: inline-block;
-        vertical-align: top;
-        float: left;
-
-        .servicios_impresora--descripcion {
-            color: white;
-            font-size: x-large;
-            text-indent: 20px;
-            box-shadow: 0 0 45px rgb(155, 90, 104);
-            margin: right 50px;
-            border-radius: 10px;
-            text-align: center;
-            padding-right: 20px;
-
-            .servicios_impresora--descripcion--productos {
-                color: black;
-                font-size: x-large;
-                box-shadow: 0 0 45px rgb(155, 90, 104);
-            }
-
-        }
-    }
 }
 
-.muestra {
-    display: flex;
-    flex-direction: row;
-    color: rgb(255, 255, 255);
+.impresora {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.descripcion {
+    color: white;
     font-size: x-large;
-    flex-wrap: wrap;
+    text-indent: 20px;
+    box-shadow: 0 0 45px rgb(155, 90, 104);
+    margin: right 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 20px;
 
-    .muestra_img {
-        width: 305px;
-        height: 305px;
-        margin: 8px;
+    .descripcion_productos {
+        color: white;
+        font-size: x-large;
+        box-shadow: 0 0 45px rgb(88, 81, 185);
     }
+
 }
+
+
+
 
 //pagina 4//
 .imagenes {
@@ -184,25 +194,33 @@ body {
         height: 500px;
         margin: 15px;
 
-        .imagenes_img--dibujos {
-            display: flex;
-            list-style: none;
-            padding: 0px 20px;
-            justify-content: space-evenly;
-            align-items: center;
-            border-radius: 5px;
-            font-family: 'Play', sans-serif;
-            flex-wrap: wrap;
-            box-shadow: 0 0 60px rgb(179, 162, 241);
-            background: linear-gradient(#6699c2, #4b5097);
-            color: yellow;
-            height: 30px;
-            cursor: pointer;
-
-        }
+        
     }
 
 }
+
+
+.imagenes_img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)}
+.dibujos {
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    font-family: 'Play', sans-serif;
+    flex-wrap: wrap;
+    box-shadow: 0 0 60px rgb(179, 162, 241);
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
 
 .contactos {
     .contactos_buscanos {
@@ -220,15 +238,6 @@ body {
     }
 }
 
-.footer {
-    display: flex;
-    height: 100px;
-    background-color: aqua;
-
-    .footer_estilos {
-        font-size: medium;
-    }
-}
 
 @media (max-width: 450px) {
     .ducato2 {
@@ -238,20 +247,58 @@ body {
 
 }
 
+.text-center {
+    text-align: center !important;
+}
+
+.p-4 {
+    padding: 1.5px !important;
+}
 
 
-@keyframes roving {
-    from {
-        height:20%;}
 
-    
 
-    50% {
-        font-size:20%;
-        text-align:center}
-    
+.final {
 
-    to {
-       height:100%
+    color: white;
+}
+
+@media (max-width:425px) {
+    .impresora {
+        width: 80%
     }
+
+    .d-block {
+        width: 50%;
+    }
+
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dibujos {
+        text-align: center;
+    }
+
+    .muestra {
+        text-align: center;
+    }
+    .logo{
+       
+        width: 100px;
+        height: 100px;
+    }
+}
+@media  (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: space-around;
+}}
+.p-4 {
+    padding: 1.5px !important;
+    color: wheat;
 }
